@@ -37,7 +37,7 @@ apps:
 
 parts:
   build-trigger:
-    source: https://github.com/Anuken/Mindustry.git
+    source: https://github.com/blahblahbloopster/mindustry-client.git
     plugin: nil
   mindustry:
     after: [desktop-gtk2]
