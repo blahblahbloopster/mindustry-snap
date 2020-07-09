@@ -22,7 +22,7 @@ addons:
 script:
   - sudo apt update
   - sudo /snap/bin/lxd.migrate -yes
-  - /snap/bin/lxd waitready
+#   - /snap/bin/lxd waitready
   - /snap/bin/lxd init --auto
   - mkdir -p "$TRAVIS_BUILD_DIR/snaps-cache"
   - sudo snapcraft --use-lxd
